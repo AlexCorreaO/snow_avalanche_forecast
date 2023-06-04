@@ -20,10 +20,6 @@ import matplotlib.pyplot as plt
 
 # TODO: documentation
 
-# TODO make it easy to change model and keep which model
-
-
-# TODO 
 def train(X, y, mod):
     if mod == 'xg':
         model = XGBClassifier(objective="multi:softprob")
@@ -58,7 +54,6 @@ def conf_matrix(y_test, y_pred, labels):
     plt.show()
 
 
-# TODO
 def test(y_true, y_pred):
     rf_acc = accuracy_score(y_true, y_pred)
     rf_precision, rf_recall, rf_f1score, _ = \
