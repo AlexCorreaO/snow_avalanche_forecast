@@ -14,12 +14,11 @@ import numpy as np
 import pandas as pd
 import shap
 import matplotlib.pyplot as plt
-# TODO: documentation
 
 
 if __name__ == '__main__':
-    # Main directory: # TODO: set directory preference in IDE
-    project_path = r'C:\Users\alexc\OneDrive\Escritorio\UNI\4t\TFG\PROJECTE'
+    # Main directory: # TODO: set directory path
+    project_path = r'C: '
     
     # get full data (when features is empty, gives all columns) for data 
     #   analysis
